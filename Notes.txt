@@ -1,0 +1,6 @@
+to delete the dev branch locally and remotely use the following commands:
+git switch main
+git branch -d dev
+git push origin --delete old-branch
+
+reference: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/delete-local-git-branch-origin-force-merge-all
